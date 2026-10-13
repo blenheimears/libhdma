@@ -6,3 +6,5 @@ The lossy core is an essential part of the encoded audio; the lossless coder enc
 The encoder for the lossy core is based on code from ffmpeg.
 
 This project only implements an encoder; vanilla ffmpeg can already decode both the lossy core and the lossless audio.
+
+This codec is really only useful for surround sound, ie. 5.1 or 7.1. For stereo or mono, you're better off using uncompressed PCM.
