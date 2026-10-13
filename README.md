@@ -4,3 +4,5 @@ Libhdma is a lossless audio codec for Blu-ray, compatible with most Blu-ray play
 The lossy core is an essential part of the encoded audio; the lossless coder encodes the difference between the lossy audio and the original, giving greater compression efficiency than other codecs with a lossy core.
 
 The encoder for the lossy core is based on code from ffmpeg.
+
+This project only implements an encoder; vanilla ffmpeg can already decode both the lossy core and the lossless audio.
